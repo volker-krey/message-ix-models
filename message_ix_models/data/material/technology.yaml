@@ -218,32 +218,32 @@ ethanol_to_ethylene_petro:
 export_NFert:
   description: Pseudo technology representing regional nitrogen fertilizer exports to global market
   name: Nitrogen fertilizer export
-  aimhub_sector: 
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 export_NH3:
   description: Pseudo technology representing regional ammonia exports to global market
   name: NH3 export
-  aimhub_sector: 
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 export_aluminum:
   description: Pseudo technology representing regional aluminum exports to global market
   name: Aluminum export
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 export_petro:
   description: Pseudo technology representing regional HVC exports to global market
   name: HVC export
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 export_steel:
   description: Pseudo technology representing regional steel exports to global market
   name: Steel export
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 #FIXME: fuel cells are currently only producing low temp heat, but no electricity
 fc_h2_aluminum:
@@ -285,20 +285,20 @@ fc_h2_steel:
 feedstock_t/d:
   description: Distribution of feedstocks for high value chemicals
   name: Chemical feedstock distribution
-  aimhub_sector:
-  aimhub_commodity: 
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 finishing_aluminum:
   description: Finishing of aluminum
   name: Aluminum finishing
   aimhub_sector: NFM
-  aimhub_commodity:
+  aimhub_commodity: NA
 
 finishing_steel:
   description: Finishing of steel
   name: Steel finishing
   aimhub_sector: I_S
-  aimhub_commodity:
+  aimhub_commodity: NA
 
 fueloil_NH3:
   description: Ammonia synthesis with hydrogen via partial oxidation of fueloil
@@ -315,7 +315,7 @@ fueloil_NH3_ccs:
 furnace_biomass_aluminum:
   description: Generalized furnace using biomass to provide process heat for aluminum production
   name: Industrial furnace from biomass for aluminum sector
-  aimhub_sector: NMN    
+  aimhub_sector: NFM    
   aimhub_commodity: COM_BIO 
 
 furnace_biomass_cement:
@@ -765,50 +765,50 @@ hydrotreating_ref:
 import_NFert:
   description: Pseudo technology representing imports of nitrogen fertilizer from a global pool
   name: Nitrogen fertilizer imports
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 import_NH3:
   description: Pseudo technology representing imports of ammonia from a global pool
   name: Ammonia import
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 import_aluminum:
   description: Pseudo technology representing imports of aluminum from a global pool
   name: Aluminum imports
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 import_petro:
   description: Pseudo technology representing imports of HVCs from a global pool
   name: High Value Chemicals imports
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 import_steel:
   description: Pseudo technology representing imports of steel from a global pool
   name: Steel imports
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 manuf_aluminum:
   description: Technology representing the manufacturing steps from crude alu to alu products
   name: Aluminum manufacturing
   aimhub_sector: NFM
-  aimhub_commodity:
+  aimhub_commodity: NA
 
 manuf_steel:
   description: Technology representing the manufacturing steps from crude steel to steel products
   name: Steel products manufacturing
   aimhub_sector: I_S
-  aimhub_commodity:
+  aimhub_commodity: NA
 
 meth_bal:
   description: Pseudo technology moving methanol from primary(_material) to secondary(_material) level
   name: Methanol balance
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 meth_bio:
   description: Methanol production via biomass gasification
@@ -837,8 +837,8 @@ meth_coal_ccs:
 meth_exp:
   description: Pseudo technology representing export of methanol to the global pool
   name: Methanol export
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 meth_h2:
   description: Methanol production from synthetic syngas (H2 and CO2)
@@ -849,8 +849,8 @@ meth_h2:
 meth_imp:
   description: Pseudo technology representing imports of methanol from the global pool
   name: Methanol imports
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 meth_ng:
   description: Methanol production via steam reforming of natural gas
@@ -867,38 +867,38 @@ meth_ng_ccs:
 meth_t_d:
   description: Pseudo technology moving methanol from secondary to final level
   name: Methanol fuel transport and distribution
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 meth_t_d_material:
   description: Pseudo technology moving methanol from secondary_material to final_material level
   name: Methanol feedstock transport and distribution
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 meth_trd:
   description: Pseudo technology representing methanol trade on global markets
   name: Methanol trade
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 other_EOL_aluminum:
   description: Pseudo technology representing the end-of-life aluminum as a share of production
   name: Aluminum end of life technology
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 other_EOL_cement:
   description: Pseudo technology representing the end-of-life cement as a share of production
   name: Cement end of life technology
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 other_EOL_steel:
   description: Pseudo technology representing the end-of-life steel as a share of production
   name: Steel end of life technology
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 pellet_steel:
   description: Technology to convert fine-grained iron ore concentrates or other iron-bearing materials into small, round pellets
@@ -1065,32 +1065,32 @@ total_EOL_steel:
 trade_NFert:
   description: Pseudo technology representing nitrogen fertilizer trade on global markets
   name: Nitrogen fertilizer trade
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 trade_NH3:
   description: Pseudo technology representing NH3 trade on global markets
   name: Ammonia trade
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 trade_aluminum:
   description: Pseudo technology representing aluminum trade on global markets
   name: Aluminum trade
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 trade_petro:
   description: Pseudo technology representing HVC trade on global markets
   name: High Value Chemicals trade
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 trade_steel:
   description: Pseudo technology representing steel trade on global markets
   name: Steel trade
-  aimhub_sector:
-  aimhub_commodity:
+  aimhub_sector: NA
+  aimhub_commodity: NA
 
 vacuum_distillation_ref:
   description: Refinery process distilling heavy residue from atmospheric distillation
