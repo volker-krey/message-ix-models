@@ -2,736 +2,1104 @@
 CH2O_synth:
   description: Synthesis of formaldehyde from methanol via silver-catalyst pathway
   name: Formaldehyde Synthesis
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P
 
 CH2O_to_resin:
   description: Synthesis of formaldehyde resins (proxy chemical phenol-formaldehyde)
   name: Formaldehyde resin synthesis
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P
 
 DUMMY_alumina_supply:
   description: Pseudo technology supplying alumina (aluminum oxide)
   name: Alumina supply
+  aimhub_sector: NFM
+  aimhub_commodity: ?
 
 DUMMY_coal_supply:
   description: Pseudo technology supplying coal for steel sector to be used in emissions reporting
   name: Coal supply for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_COA
 
 DUMMY_gas_supply:
   description: Pseudo technology supplying natural gas for steel sector to be used in emissions reporting
   name: Gas supply for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 DUMMY_limestone_supply_cement:
   description: Pseudo technology supplying limestone for cement
   name: Limestone supply for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: ?
 
 DUMMY_limestone_supply_steel:
   description: Pseudo technology supplying limestone for steel
   name: Limestone supply for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 DUMMY_ore_supply:
   description: Pseudo technology supplying iron ore
   name: Iron ore supply for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 MTO_petro:
   description: Methanol-to-Olefins process unit producing ethylene and propylene from methanol
   name: Methanol-to-Olefins
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P?
 
 NH3_to_N_fertil:
   description: Nitrogen fertilizer production from ammonia
   name: Nitrogen fertilizer production
+  aimhub_sector: CRP
+  aimhub_commodity: ?
 
 agg_ref:
   description: Pseudo technology aggregating petroleum products to light-oil and heavy-oil
   name: Petroleum fuel aggregation
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P?
 
 atm_distillation_ref:
   description: First step in the refining process to separate crude oil into its components based on their boiling points
   name: Atmospheric distillation unit
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 bf_steel:
   description: Blast furnace producing iron from iron ore
   name: Blast furnace
+  aimhub_sector: I_S
+  aimhub_commodity: COM_COA
 
 biomass_NH3:
   description: Ammonia synthesis with hydrogen produced from biomass gasification
   name: Ammonia production from biomass
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 biomass_NH3_ccs:
   description: Ammonia synthesis with hydrogen produced from biomass gasification with CCS
   name: Bioammonia production with CCS
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 bof_steel:
   description: Type of steelmaking furnace used to convert molten iron produced in a blast furnace into steel
   name: Basic oxygen furnace
+  aimhub_sector: I_S
+  aimhub_commodity: COM_COA
 
 catalytic_cracking_ref:
   description: Catalytic cracking converts gas oils with high gasoline yield
   name: Catalytic cracking process unit
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 catalytic_reforming_ref:
   description: Catalytic reforming used to produce hydrogen from refinery feedstock
   name: Catalytic reforming process unit
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 clinker_dry_ccs_cement:
   description: Addon technology for clinker_dry_cement capturing process emissions
   name: Dry process clinker kiln CCS addon
+  aimhub_sector: NMM
+  aimhub_commodity: ?
 
 clinker_dry_cement:
   description: Clinker kiln using the more efficient dry calcining process
   name: Dry process clinker kiln
+  aimhub_sector: NMM
+  aimhub_commodity: ?
 
 clinker_wet_ccs_cement:
   description: Addon technology for clinker_wet_cement capturing process emissions
   name:  Wet process clinker kiln CCS addon
+  aimhub_sector: NMM
+  aimhub_commodity: ?
 
 clinker_wet_cement:
   description: Clinker kiln using the less efficient wet calcining process
   name: Wet calcining clinker production
+  aimhub_sector: NMM
+  aimhub_commodity: ?
 
 coal_NH3:
   description: Ammonia synthesis with hydrogen from coal gasification
   name: Ammonia production from coal
+  aimhub_sector: CRP
+  aimhub_commodity: COM_COA
 
 coal_NH3_ccs:
   description: Ammonia synthesis with hydrogen from coal gasification with CCS
   name: Ammonia production from coal with CCS
+  aimhub_sector: CRP
+  aimhub_commodity: COM_COA
 
 cokeoven_steel:
   description: Coke oven transforming coal to coke for steel production
   name: Coke oven for steel production
+  aimhub_sector: CTF
+  aimhub_commodity: COM_COA
 
 coking_ref:
   description: Deep conversion technology of refinery upgrading heavy residues of vacuum distillation
   name: Refinery coker process unit
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 dheat_aluminum:
   description: Low temperature heat from a district heating network for aluminum sector
   name: District heat for aluminum production
+  aimhub_sector: NFM
+  aimhub_commodity: COM_ELY
 
 dheat_cement:
   description: Low temperature heat from a district heating network for cement sector
   name: District heat for cement production
+  aimhub_sector: NMM
+  aimhub_commodity: COM_ELY
 
 dheat_petro:
   description: Low temperature heat from a district heating network for petrochemical production
   name: District heat for chemical production
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 dheat_refining:
   description: Low temperature heat from a district heating network for refineries
   name: District heat for refineries
+  aimhub_sector: PRF
+  aimhub_commodity: COM_ELY
 
 dheat_resins:
   description: Low temperature heat from a district heating network for resin production
   name: District heat for resin production
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 dheat_steel:
   description: Low temperature heat from a district heating network for steel sector
   name: District heat for steel production
+  aimhub_sector: I_S
+  aimhub_commodity: COM_ELY
 
 dri_steel:
   description: Sponge iron production through direct reduction of iron ore
   name: Direct reduction iron process
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 eaf_steel:
   description: Electric arc furnace for steel making from direct reduced iron or steel scrap
   name: Electric arc furnace
+  aimhub_sector: I_S
+  aimhub_commodity: COM_ELY
 
 electr_NH3:
   description: Integrated ammonia production facility combining on-site hydrogen electrolyser with ammonia synthesis unit
   name: Ammonia production from electricity
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 ethanol_to_ethylene_petro:
   description: Ethylene production via ethanol dehydration
   name: Ethanol dehydration
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 export_NFert:
   description: Pseudo technology representing regional nitrogen fertilizer exports to global market
   name: Nitrogen fertilizer export
+  aimhub_sector: 
+  aimhub_commodity:
 
 export_NH3:
   description: Pseudo technology representing regional ammonia exports to global market
   name: NH3 export
+  aimhub_sector: 
+  aimhub_commodity:
 
 export_aluminum:
   description: Pseudo technology representing regional aluminum exports to global market
   name: Aluminum export
+  aimhub_sector:
+  aimhub_commodity:
 
 export_petro:
   description: Pseudo technology representing regional HVC exports to global market
   name: HVC export
+  aimhub_sector:
+  aimhub_commodity:
 
 export_steel:
   description: Pseudo technology representing regional steel exports to global market
   name: Steel export
+  aimhub_sector:
+  aimhub_commodity:
 
 #FIXME: fuel cells are currently only producing low temp heat, but no electricity
 fc_h2_aluminum:
   description: Fuel cell using hydrogen to produce heat for aluminum and electricity
   name: Hydrogen fuel-cell for aluminum process heat
+  aimhub_sector: NFM
+  aimhub_commodity: COM_HYG
 
 fc_h2_cement:
   description: Fuel cell using hydrogen to produce heat for cement and electricity
   name: Hydrogen fuel-cell for cement process heat
+  aimhub_sector: NMM
+  aimhub_commodity: COM_HYG
 
 fc_h2_petro:
   description: Fuel cell using hydrogen to produce heat for petrochemicals and electricity
   name: Hydrogen fuel-cell for petrochemicals process heat
+  aimhub_sector: CRP
+  aimhub_commodity: COM_HYG
 
 fc_h2_refining:
   description: Fuel cell using hydrogen to produce heat for refineries and electricity
   name: Hydrogen fuel-cell for refinery process heat
+  aimhub_sector: PRF
+  aimhub_commodity: COM_HYG
 
 fc_h2_resins:
   description: Fuel cell using hydrogen to produce heat for resins and electricity
   name: Hydrogen fuel-cell for resin process heat
+  aimhub_sector: CRP
+  aimhub_commodity: COM_HYG
 
 fc_h2_steel:
   description: Fuel cell using hydrogen to produce heat for steel and electricity
   name: Hydrogen fuel-cell for steel process heat
+  aimhub_sector: I_S
+  aimhub_commodity: COM_HYG
 
 feedstock_t/d:
   description: Distribution of feedstocks for high value chemicals
   name: Chemical feedstock distribution
+  aimhub_sector:
+  aimhub_commodity: 
 
 finishing_aluminum:
   description: Finishing of aluminum
   name: Aluminum finishing
+  aimhub_sector: NFM
+  aimhub_commodity:
 
 finishing_steel:
   description: Finishing of steel
   name: Steel finishing
+  aimhub_sector: I_S
+  aimhub_commodity:
 
 fueloil_NH3:
   description: Ammonia synthesis with hydrogen via partial oxidation of fueloil
   name: Ammonia production from fueloil
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P 
 
 fueloil_NH3_ccs:
   description: Ammonia synthesis with hydrogen via partial oxidation of fueloil with CCS
   name: Ammonia production from fueloil with CCS
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P 
 
 furnace_biomass_aluminum:
   description: Generalized furnace using biomass to provide process heat for aluminum production
   name: Industrial furnace from biomass for aluminum sector
+  aimhub_sector: NMN    
+  aimhub_commodity: COM_BIO 
 
 furnace_biomass_cement:
   description: Generalized furnace using biomass to provide process heat for cement production
   name: Industrial furnace from biomass for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: COM_BIO
 
 furnace_biomass_petro:
   description: Generalized furnace using biomass to provide process heat for petrochemical production
   name: Industrial furnace from biomass for petrochemical sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 furnace_biomass_refining:
   description: Generalized furnace using biomass to provide process heat for refineries
   name: Industrial furnace from biomass for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_BIO
 
 furnace_biomass_resins:
   description: Generalized furnace using biomass to provide process heat for resin production
   name: Industrial furnace from biomass for resin sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 furnace_biomass_steel:
   description: Generalized furnace using biomass to provide process heat for steel production
   name: Industrial furnace from biomass for iron/steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_BIO
 
 furnace_coal_aluminum:
   description: Generalized furnace using coal to provide process heat for aluminum production
   name: Industrial furnace from coal for aluminum sector
+  aimhub_sector: NFM
+  aimhub_commodity: COM_COA
 
 furnace_coal_cement:
   description: Generalized furnace using coal to provide process heat for cement production
   name: Industrial furnace from coal for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: COM_COA
 
 furnace_coal_petro:
   description: Generalized furnace using coal to provide process heat for petrochemicals production
   name: Industrial furnace from coal for petrochemicals sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_COA
 
 furnace_coal_refining:
   description: Generalized furnace using coal to provide process heat for refineries
   name: Industrial furnace from coal for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_COA
 
 furnace_coal_resins:
   description: Generalized furnace using coal to provide process heat for resins production
   name: Industrial furnace from coal for resins sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_COA
 
 furnace_coal_steel:
   description: Generalized furnace using coal to provide process heat for steel production
   name: Industrial furnace from coal for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_COA
 
 furnace_coke_petro:
   description: Generalized furnace using coke to provide process heat for petrochemical production
   name: Industrial furnace from coke for petrochemical sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_COA
 
 furnace_coke_refining:
   description: Generalized furnace using coke to provide process heat for refineries
   name: Industrial furnace from coke for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_COA
 
 furnace_elec_aluminum:
   description: Generalized furnace using electricity to provide process heat for aluminum production
   name: Industrial furnace using electricity for aluminum sector
+  aimhub_sector: NFM
+  aimhub_commodity: COM_ELY
 
 furnace_elec_cement:
   description: Generalized furnace using electricity to provide process heat for cement production
   name: Industrial furnace using electricity for cement sector
+  aimhub_sector: NMM    
+  aimhub_commodity: COM_ELY
 
 furnace_elec_petro:
   description: Generalized furnace using electricity to provide process heat for petrochemical production
   name: Industrial furnace using electricity for petrochemical sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 furnace_elec_refining:
   description: Generalized furnace using electricity to provide process heat for refineries
   name: Industrial furnace using electricity for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_ELY
 
 furnace_elec_resins:
   description: Generalized furnace using electricity to provide process heat for resin production
   name: Industrial furnace using electricity for resin sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 furnace_elec_steel:
   description: Generalized furnace using electricity to provide process heat for steel production
   name: Industrial furnace using electricity for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_ELY
 
 furnace_ethanol_aluminum:
   description: Generalized furnace using ethanol to provide process heat for aluminum production
   name: Industrial furnace using ethanol for aluminum sector
+  aimhub_sector: NFM
+  aimhub_commodity: COM_BIO
 
 furnace_ethanol_cement:
   description: Generalized furnace using ethanol to provide process heat for cement production
   name: Industrial furnace using ethanol for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: COM_BIO
 
 furnace_ethanol_petro:
   description: Generalized furnace using ethanol to provide process heat for petrochemicals production
   name: Industrial furnace using ethanol for petrochemical sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 furnace_ethanol_refining:
   description: Generalized furnace using ethanol to provide process heat for refineries
   name: Industrial furnace using ethanol for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_BIO
 
 furnace_ethanol_resins:
   description: Generalized furnace using ethanol to provide process heat for resins production
   name: Industrial furnace using ethanol for resins sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 furnace_ethanol_steel:
   description: Generalized furnace using ethanol to provide process heat for steel production
   name: Industrial furnace using ethanol for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_BIO
 
 furnace_foil_aluminum:
   description: Generalized furnace using fueloil to provide process heat for aluminum production
   name: Industrial furnace using fueloil for aluminum sector
+  aimhub_sector: NFM
+  aimhub_commodity: COM_P_P
 
 furnace_foil_cement:
   description: Generalized furnace using fueloil to provide process heat for cement production
   name: Industrial furnace using fueloil for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: COM_P_P
 
 furnace_foil_petro:
   description: Generalized furnace using fueloil to provide process heat for petrochemicals production
   name: Industrial furnace using fueloil for petrochemical sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P
 
 furnace_foil_refining:
   description: Generalized furnace using fueloil to provide process heat for refineries
   name: Industrial furnace using fueloil for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 furnace_foil_resins:
   description: Generalized furnace using fueloil to provide process heat for resins production
   name: Industrial furnace using fueloil for resin sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P
 
 furnace_foil_steel:
   description: Generalized furnace using fueloil to provide process heat for steel production
   name: Industrial furnace using fueloil for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_P_P
 
 furnace_gas_aluminum:
   description: Generalized furnace using gas to provide process heat for aluminum production
   name: Industrial furnace using natural gas for aluminum sector
+  aimhub_sector: NFM
+  aimhub_commodity: COM_GDT
 
 furnace_gas_cement:
   description: Generalized furnace using gas to provide process heat for cement production
   name: Industrial furnace using natural gas for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: COM_GDT
 
 furnace_gas_petro:
   description: Generalized furnace using gas to provide process heat for petrochemicals production
   name: Industrial furnace using natural gas for petrochemical sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_GDT
 
 furnace_gas_refining:
   description: Generalized furnace using gas to provide process heat for refineries
   name: Industrial furnace using natural gas for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_GDT
 
 furnace_gas_resins:
   description: Generalized furnace using gas to provide process heat for resins production
   name: Industrial furnace using natural gas for resin sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_GDT
 
 furnace_gas_steel:
   description: Generalized furnace using gas to provide process heat for steel production
   name: Industrial furnace using natural gas for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_GDT
 
 furnace_h2_aluminum:
   description: Generalized furnace using hydrogen to provide process heat for aluminum production
   name: Industrial furnace using hydrogen for aluminum sector
+  aimhub_sector: NFM
+  aimhub_commodity: COM_HYG
 
 furnace_h2_cement:
   description: Generalized furnace using hydrogen to provide process heat for cement production
   name: Industrial furnace using hydrogen for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: COM_HYG
 
 furnace_h2_petro:
   description: Generalized furnace using hydrogen to provide process heat for petrochemicals production
   name: Industrial furnace using hydrogen for petrochemicals sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_HYG
 
 furnace_h2_refining:
   description: Generalized furnace using hydrogen to provide process heat for refineries
   name: Industrial furnace using hydrogen for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_HYG
 
 furnace_h2_resins:
   description: Generalized furnace using hydrogen to provide process heat for resins production
   name: Industrial furnace using hydrogen for resin sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_HYG
 
 furnace_h2_steel:
   description: Generalized furnace using hydrogen to provide process heat for steel production
   name: Industrial furnace using hydrogen for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_HYG
 
 furnace_loil_aluminum:
   description: Generalized furnace using lightoil to provide process heat for aluminum production
   name: Industrial furnace using lightoil for aluminum sector
+  aimhub_sector: NFM
+  aimhub_commodity: COM_P_P
 
 furnace_loil_cement:
   description: Generalized furnace using lightoil to provide process heat for cement production
   name: Industrial furnace using lightoil for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: COM_P_P
 
 furnace_loil_petro:
   description: Generalized furnace using lightoil to provide process heat for petrochemical production
   name: Industrial furnace using lightoil for petrochemical sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P
 
 furnace_loil_refining:
   description: Generalized furnace using lightoil to provide process heat for refineries
   name: Industrial furnace using lightoil for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 furnace_loil_resins:
   description: Generalized furnace using lightoil to provide process heat for resin production
   name: Industrial furnace using lightoil for resin sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P
 
 furnace_loil_steel:
   description: Generalized furnace using lightoil to provide process heat for steel production
   name: Industrial furnace using lightoil for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_P_P
 
 furnace_methanol_aluminum:
   description: Generalized furnace using methanol to provide process heat for aluminum production
   name: Industrial furnace using methanol for aluminum sector
+  aimhub_sector: NFM
+  aimhub_commodity: COM_P_P?
 
 furnace_methanol_cement:
   description: Generalized furnace using methanol to provide process heat for cement production
   name: Industrial furnace using methanol for cement sector
+  aimhub_sector: NMM
+  aimhub_commodity: COM_P_P?
 
 furnace_methanol_petro:
   description: Generalized furnace using methanol to provide process heat for petrochemical production
   name: Industrial furnace using methanol for petrochemical sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P?
 
 furnace_methanol_refining:
   description: Generalized furnace using methanol to provide process heat for refineries
   name: Industrial furnace using methanol for refinery sector
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P?
 
 furnace_methanol_resins:
   description: Generalized furnace using methanol to provide process heat for resins production
   name: Industrial furnace using methanol for resin sector
+  aimhub_sector: CRP
+  aimhub_commodity: COM_P_P?
 
 furnace_methanol_steel:
   description: Generalized furnace using methanol to provide process heat for steel production
   name: Industrial furnace using methanol for steel sector
+  aimhub_sector: I_S
+  aimhub_commodity: COM_P_P?
 
 gas_NH3:
   description: Ammonia synthesis with hydrogen via steam reforming of methane
   name: Ammonia production from natural gas
+  aimhub_sector: CRP
+  aimhub_commodity: COM_GDT
 
 gas_NH3_ccs:
   description: Ammonia synthesis with hydrogen via steam reforming of methane with CCS
   name: Ammonia production from natural gas with CCS
+  aimhub_sector: CRP
+  aimhub_commodity: COM_GDT
 
 gas_processing_petro:
   description: Processing of raw natural gas to separate gas liquids
   name: Natural gas processing
+  aimhub_sector: GDT
+  aimhub_commodity: COM_GDT?
 
 grinding_ballmill_cement:
   description: Cement grinding using a ballmill
   name: Ballmill cement grinding
+  aimhub_sector: NMM
+  aimhub_commodity: COM_ELY
 
 grinding_vertmill_cement:
   description: Cement grinding using a vertical mill
   name: Vertical cement grinding
+  aimhub_sector: NMM
+  aimhub_commodity: COM_ELY
 
 hp_elec_aluminum:
   description: Electric heat pump used to provide process heat for aluminum production
   name: Electric heat pump for aluminum process heat
+  aimhub_sector: NFM
+  aimhub_commodity: COM_ELY
 
 hp_elec_cement:
   description: Electric heat pump used to provide process heat for cement production
   name: Electric heat pump for cement process heat
+  aimhub_sector: NMM
+  aimhub_commodity: COM_ELY
 
 hp_elec_petro:
   description: Electric heat pump used to provide process heat for petrochemical production
   name: Electric heat pump for petrochemical process heat
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 hp_elec_refining:
   description: Electric heat pump used to provide process heat for refinery processes
   name: Electric heat pump for refining process heat
+  aimhub_sector: PRF
+  aimhub_commodity: COM_ELY
 
 hp_elec_resins:
   description: Electric heat pump used to provide process heat for resin production
   name: Electric heat pump for resins production process heat
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 hp_elec_steel:
   description: Electric heat pump used to provide process heat for steel production
   name: Electric heat pump for steel process heat
+  aimhub_sector: I_S
+  aimhub_commodity: COM_ELY
 
 hp_gas_aluminum:
   description: Gas powered heat pump used to provide process heat for aluminum production
   name: Gas powered heat pump for aluminum process heat
+  aimhub_sector: NFM
+  aimhub_commodity: COM_GDT
 
 hp_gas_cement:
   description: Gas powered heat pump used to provide process heat for cement production
   name: Gas powered heat pump for cement process heat
+  aimhub_sector: NMM
+  aimhub_commodity: COM_GDT
 
 hp_gas_petro:
   description: Gas powered heat pump used to provide process heat for petrochemical production
   name: Gas powered heat pump for petrochemical process heat
+  aimhub_sector: CRP
+  aimhub_commodity: COM_GDT
 
 hp_gas_refining:
   description: Gas powered heat pump used to provide process heat for refineries
   name: Gas powered heat pump for refining process heat
+  aimhub_sector: PRF
+  aimhub_commodity: COM_ELY
 
 hp_gas_resins:
   description: Gas powered heat pump used to provide process heat for resin production
   name: Gas powered heat pump for resin production process heat
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 hp_gas_steel:
   description: Gas powered heat pump used to provide process heat for steel production
   name: Gas powered heat pump for steel process heat
+  aimhub_sector: I_S
+  aimhub_commodity: COM_GDT
 
 hydro_cracking_ref:
   description: Hydrocracking unit of a refinery converting gas oils with hydrogen to lighter petroleum products
   name: Hydrocracking
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 hydrotreating_ref:
   description: Hydrotreating unit of a refinery
   name: Hydrotreating refinery unit
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 import_NFert:
   description: Pseudo technology representing imports of nitrogen fertilizer from a global pool
   name: Nitrogen fertilizer imports
+  aimhub_sector:
+  aimhub_commodity:
 
 import_NH3:
   description: Pseudo technology representing imports of ammonia from a global pool
   name: Ammonia import
+  aimhub_sector:
+  aimhub_commodity:
 
 import_aluminum:
   description: Pseudo technology representing imports of aluminum from a global pool
   name: Aluminum imports
+  aimhub_sector:
+  aimhub_commodity:
 
 import_petro:
   description: Pseudo technology representing imports of HVCs from a global pool
   name: High Value Chemicals imports
+  aimhub_sector:
+  aimhub_commodity:
 
 import_steel:
   description: Pseudo technology representing imports of steel from a global pool
   name: Steel imports
+  aimhub_sector:
+  aimhub_commodity:
 
 manuf_aluminum:
   description: Technology representing the manufacturing steps from crude alu to alu products
   name: Aluminum manufacturing
+  aimhub_sector: NFM
+  aimhub_commodity:
 
 manuf_steel:
   description: Technology representing the manufacturing steps from crude steel to steel products
   name: Steel products manufacturing
+  aimhub_sector: I_S
+  aimhub_commodity:
 
 meth_bal:
   description: Pseudo technology moving methanol from primary(_material) to secondary(_material) level
   name: Methanol balance
+  aimhub_sector:
+  aimhub_commodity:
 
 meth_bio:
   description: Methanol production via biomass gasification
   name: Biomethanol production
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 meth_bio_ccs:
   description: Methanol production via biomass gasification with CCS
   name: Biomethanol production with CCS
+  aimhub_sector: CRP
+  aimhub_commodity: COM_BIO
 
 meth_coal:
   description: Methanol production via coal gasification
   name: Methanol production from coal
+  aimhub_sector: CRP
+  aimhub_commodity: COM_COA
 
 meth_coal_ccs:
   description: Methanol production via coal gasification with CCS
   name: Methanol production from coal with CCS
+  aimhub_sector: CRP
+  aimhub_commodity: COM_COA
 
 meth_exp:
   description: Pseudo technology representing export of methanol to the global pool
   name: Methanol export
+  aimhub_sector:
+  aimhub_commodity:
 
 meth_h2:
   description: Methanol production from synthetic syngas (H2 and CO2)
   name: Methanol production from hydrogen
+  aimhub_sector: CRP
+  aimhub_commodity: COM_HYG
 
 meth_imp:
   description: Pseudo technology representing imports of methanol from the global pool
   name: Methanol imports
+  aimhub_sector:
+  aimhub_commodity:
 
 meth_ng:
   description: Methanol production via steam reforming of natural gas
   name: Methanol production from natural gas
+  aimhub_sector: CRR
+  aimhub_commodity: COM_GDT
 
 meth_ng_ccs:
   description: Methanol production via steam reforming of natural gas with CCS
   name: Methanol production from gas
+  aimhub_sector: CRP
+  aimhub_commodity: COM_GDT
 
 meth_t_d:
   description: Pseudo technology moving methanol from secondary to final level
   name: Methanol fuel transport and distribution
+  aimhub_sector:
+  aimhub_commodity:
 
 meth_t_d_material:
   description: Pseudo technology moving methanol from secondary_material to final_material level
   name: Methanol feedstock transport and distribution
+  aimhub_sector:
+  aimhub_commodity:
 
 meth_trd:
   description: Pseudo technology representing methanol trade on global markets
   name: Methanol trade
+  aimhub_sector:
+  aimhub_commodity:
 
 other_EOL_aluminum:
   description: Pseudo technology representing the end-of-life aluminum as a share of production
   name: Aluminum end of life technology
+  aimhub_sector:
+  aimhub_commodity:
 
 other_EOL_cement:
   description: Pseudo technology representing the end-of-life cement as a share of production
   name: Cement end of life technology
+  aimhub_sector:
+  aimhub_commodity:
 
 other_EOL_steel:
   description: Pseudo technology representing the end-of-life steel as a share of production
   name: Steel end of life technology
+  aimhub_sector:
+  aimhub_commodity:
 
 pellet_steel:
   description: Technology to convert fine-grained iron ore concentrates or other iron-bearing materials into small, round pellets
   name: Iron pelletizing technology
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 prebake_aluminum:
   description: Aluminum production via Hall–Héroult process with prebaked electrodes
   name: Aluminum production with prebaked electrodes
+  aimhub_sector: NFM
+  aimhub_commodity: COM_ELY
 
 prep_secondary_aluminum_1:
   description: Aluminum recycling preperation technology with lower costs and high quality scrap
   name: Aluminum Recycling Preperation with low cost
+  aimhub_sector: NFM
+  aimhub_commodity: ?
 
 prep_secondary_aluminum_2:
   description: Aluminum recycling preperation technology with medium costs and medium quality scrap
   name: Aluminum Recycling Preperation with medium cost
+  aimhub_sector: NFM
+  aimhub_commodity: ?
 
 prep_secondary_aluminum_3:
   description: Aluminum recycling preperation technology with high costs and low quality scrap
   name: Aluminum Recycling Preperation with high cost
+  aimhub_sector: NFM
+  aimhub_commodity: ?
 
 prep_secondary_steel_1:
   description: Steel recycling preperation technology with lower costs and high quality scrap
   name: Steel Recycling Preperation with low cost
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 prep_secondary_steel_2:
   description: Steel recycling preperation technology with medium costs and medium quality scrap
   name: Steel Recycling Preperation with medium cost
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 prep_secondary_steel_3:
   description: Steel recycling preperation technology with high costs and low quality scrap
   name: Steel Recycling Preperation with high cost
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 production_HVC:
   description: Pseudo technology aggregating all chemicals belong to HVC group to HVC commodity
   name: High Value Chemicals production
+  aimhub_sector: CRP
+  aimhub_commodity: ?
 
 raw_meal_prep_cement:
   description: Mixing raw materials to create the homogenous raw meal mixture which serves as the feedstock for the production of cement clinker.
   name: Raw meal preperation
+  aimhub_sector: NMM
+  aimhub_commodity: ?
 
 residual_NH3:
   description: Pseudo technology that moves ammonia from level x to level y #TODO: look up levels
   name: Non-fertilizer ammonia production
+  aimhub_sector: CRP
+  aimhub_commodity: ?
 
 scrap_recovery_aluminum:
   description: Pseudo technology that represents the collected amount of scrap that goes to recycling
   name: Aluminum scrap collection
+  aimhub_sector: NFM
+  aimhub_commodity: ?
 
 scrap_recovery_cement:
   description: Pseudo technology that represents the collected amount of cement waste that goes to recycling
   name: Cement waste collection
+  aimhub_sector: NMM
+  aimhub_commodity: ?
 
 scrap_recovery_steel:
   description: Pseudo technology that represents the collected amount of scrap that goes to recycling
   name: Steel scrap collection
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 secondary_aluminum:
   description: Recycling of aluminum via melting the scrap
   name: Aluminum Recycling
+  aimhub_sector: NFM
+  aimhub_commodity: ?
 
 sinter_steel:
   description: Recycling of steel via melting the scrap
   name: Steel Recycling
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 soderberg_aluminum:
   description: Aluminum production via Hall–Héroult process with Söderberg electrodes
   name: Aluminum production with Söderberg electrodes
+  aimhub_sector: NFM
+  aimhub_commodity: COM_ELY
 
 solar_aluminum:
   description: Low temperature heat form solar collector collected with ? for aluminum production
   name: Solar heat for aluminum
+  aimhub_sector: NFM
+  aimhub_commodity: COM_ELY
 
 solar_cement:
   description: Low temperature heat form solar collector used for cement production
   name: Solar heat for cement
+  aimhub_sector: NMM
+  aimhub_commodity: COM_ELY
 
 solar_petro:
   description: Low temperature heat form solar collector used for petrochemical production
   name: Solar heat for chemicals
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 solar_refining:
   description: Low temperature heat form solar collector used for refining production
   name: Solar heat for refining
+  aimhub_sector: PRF
+  aimhub_commodity: COM_ELY
 
 solar_resins:
   description: Low temperature heat form solar collector used for resin production
   name: Solar heat for resins
+  aimhub_sector: CRP
+  aimhub_commodity: COM_ELY
 
 solar_steel:
   description: Low temperature heat form solar collector used for steel production
   name: Solar heat for steel
+  aimhub_sector: I_S
+  aimhub_commodity: COM_ELY
 
 steam_cracker_petro:
   description: Most important conventional technology for primary petrochemicals
   name: Steam cracker
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 total_EOL_aluminum:
   description: Pseudo technology aggregating aluminum scrap after end-of-life
   name: empty
+  aimhub_sector: NFM
+  aimhub_commodity: ?
 
 total_EOL_cement:
   description: Pseudo technology collecting cement scrap after end-of-life
   name: empty
+  aimhub_sector: NMM
+  aimhub_commodity: ?
 
 total_EOL_steel:
   description: Pseudo technology aggregating steel scrap after end-of-life
   name: empty
+  aimhub_sector: I_S
+  aimhub_commodity: ?
 
 trade_NFert:
   description: Pseudo technology representing nitrogen fertilizer trade on global markets
   name: Nitrogen fertilizer trade
+  aimhub_sector:
+  aimhub_commodity:
 
 trade_NH3:
   description: Pseudo technology representing NH3 trade on global markets
   name: Ammonia trade
+  aimhub_sector:
+  aimhub_commodity:
 
 trade_aluminum:
   description: Pseudo technology representing aluminum trade on global markets
   name: Aluminum trade
+  aimhub_sector:
+  aimhub_commodity:
 
 trade_petro:
   description: Pseudo technology representing HVC trade on global markets
   name: High Value Chemicals trade
+  aimhub_sector:
+  aimhub_commodity:
 
 trade_steel:
   description: Pseudo technology representing steel trade on global markets
   name: Steel trade
+  aimhub_sector:
+  aimhub_commodity:
 
 vacuum_distillation_ref:
   description: Refinery process distilling heavy residue from atmospheric distillation
   name: Vacuum distillation unit
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
 
 visbreaker_ref:
   description: Visbreaker unit of a refinery
   name: Visbreaker unit
+  aimhub_sector: PRF
+  aimhub_commodity: COM_P_P
