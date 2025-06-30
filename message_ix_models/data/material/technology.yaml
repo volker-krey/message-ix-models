@@ -15,7 +15,7 @@ DUMMY_alumina_supply:
   description: Pseudo technology supplying alumina (aluminum oxide)
   name: Alumina supply
   aimhub_sector: NFM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 DUMMY_coal_supply:
   description: Pseudo technology supplying coal for steel sector to be used in emissions reporting
@@ -27,43 +27,43 @@ DUMMY_gas_supply:
   description: Pseudo technology supplying natural gas for steel sector to be used in emissions reporting
   name: Gas supply for steel sector
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 DUMMY_limestone_supply_cement:
   description: Pseudo technology supplying limestone for cement
   name: Limestone supply for cement sector
   aimhub_sector: NMM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 DUMMY_limestone_supply_steel:
   description: Pseudo technology supplying limestone for steel
   name: Limestone supply for steel sector
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 DUMMY_ore_supply:
   description: Pseudo technology supplying iron ore
   name: Iron ore supply for steel sector
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 MTO_petro:
   description: Methanol-to-Olefins process unit producing ethylene and propylene from methanol
   name: Methanol-to-Olefins
   aimhub_sector: CRP
-  aimhub_commodity: COM_P_P?
+  aimhub_commodity: COM_P_P_check
 
 NH3_to_N_fertil:
   description: Nitrogen fertilizer production from ammonia
   name: Nitrogen fertilizer production
   aimhub_sector: CRP
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 agg_ref:
   description: Pseudo technology aggregating petroleum products to light-oil and heavy-oil
   name: Petroleum fuel aggregation
   aimhub_sector: PRF
-  aimhub_commodity: COM_P_P?
+  aimhub_commodity: COM_P_P_check
 
 atm_distillation_ref:
   description: First step in the refining process to separate crude oil into its components based on their boiling points
@@ -111,25 +111,25 @@ clinker_dry_ccs_cement:
   description: Addon technology for clinker_dry_cement capturing process emissions
   name: Dry process clinker kiln CCS addon
   aimhub_sector: NMM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 clinker_dry_cement:
   description: Clinker kiln using the more efficient dry calcining process
   name: Dry process clinker kiln
   aimhub_sector: NMM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 clinker_wet_ccs_cement:
   description: Addon technology for clinker_wet_cement capturing process emissions
   name:  Wet process clinker kiln CCS addon
   aimhub_sector: NMM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 clinker_wet_cement:
   description: Clinker kiln using the less efficient wet calcining process
   name: Wet calcining clinker production
   aimhub_sector: NMM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 coal_NH3:
   description: Ammonia synthesis with hydrogen from coal gasification
@@ -195,7 +195,7 @@ dri_steel:
   description: Sponge iron production through direct reduction of iron ore
   name: Direct reduction iron process
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 eaf_steel:
   description: Electric arc furnace for steel making from direct reduced iron or steel scrap
@@ -616,37 +616,37 @@ furnace_methanol_aluminum:
   description: Generalized furnace using methanol to provide process heat for aluminum production
   name: Industrial furnace using methanol for aluminum sector
   aimhub_sector: NFM
-  aimhub_commodity: COM_P_P?
+  aimhub_commodity: COM_P_P_check
 
 furnace_methanol_cement:
   description: Generalized furnace using methanol to provide process heat for cement production
   name: Industrial furnace using methanol for cement sector
   aimhub_sector: NMM
-  aimhub_commodity: COM_P_P?
+  aimhub_commodity: COM_P_P_check
 
 furnace_methanol_petro:
   description: Generalized furnace using methanol to provide process heat for petrochemical production
   name: Industrial furnace using methanol for petrochemical sector
   aimhub_sector: CRP
-  aimhub_commodity: COM_P_P?
+  aimhub_commodity: COM_P_P_check
 
 furnace_methanol_refining:
   description: Generalized furnace using methanol to provide process heat for refineries
   name: Industrial furnace using methanol for refinery sector
   aimhub_sector: PRF
-  aimhub_commodity: COM_P_P?
+  aimhub_commodity: COM_P_P_check
 
 furnace_methanol_resins:
   description: Generalized furnace using methanol to provide process heat for resins production
   name: Industrial furnace using methanol for resin sector
   aimhub_sector: CRP
-  aimhub_commodity: COM_P_P?
+  aimhub_commodity: COM_P_P_check
 
 furnace_methanol_steel:
   description: Generalized furnace using methanol to provide process heat for steel production
   name: Industrial furnace using methanol for steel sector
   aimhub_sector: I_S
-  aimhub_commodity: COM_P_P?
+  aimhub_commodity: COM_P_P_check
 
 gas_NH3:
   description: Ammonia synthesis with hydrogen via steam reforming of methane
@@ -664,7 +664,7 @@ gas_processing_petro:
   description: Processing of raw natural gas to separate gas liquids
   name: Natural gas processing
   aimhub_sector: GDT
-  aimhub_commodity: COM_GDT?
+  aimhub_commodity: COM_GDT_check
 
 grinding_ballmill_cement:
   description: Cement grinding using a ballmill
@@ -904,7 +904,7 @@ pellet_steel:
   description: Technology to convert fine-grained iron ore concentrates or other iron-bearing materials into small, round pellets
   name: Iron pelletizing technology
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 prebake_aluminum:
   description: Aluminum production via Hall–Héroult process with prebaked electrodes
@@ -916,85 +916,85 @@ prep_secondary_aluminum_1:
   description: Aluminum recycling preperation technology with lower costs and high quality scrap
   name: Aluminum Recycling Preperation with low cost
   aimhub_sector: NFM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 prep_secondary_aluminum_2:
   description: Aluminum recycling preperation technology with medium costs and medium quality scrap
   name: Aluminum Recycling Preperation with medium cost
   aimhub_sector: NFM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 prep_secondary_aluminum_3:
   description: Aluminum recycling preperation technology with high costs and low quality scrap
   name: Aluminum Recycling Preperation with high cost
   aimhub_sector: NFM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 prep_secondary_steel_1:
   description: Steel recycling preperation technology with lower costs and high quality scrap
   name: Steel Recycling Preperation with low cost
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 prep_secondary_steel_2:
   description: Steel recycling preperation technology with medium costs and medium quality scrap
   name: Steel Recycling Preperation with medium cost
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 prep_secondary_steel_3:
   description: Steel recycling preperation technology with high costs and low quality scrap
   name: Steel Recycling Preperation with high cost
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 production_HVC:
   description: Pseudo technology aggregating all chemicals belong to HVC group to HVC commodity
   name: High Value Chemicals production
   aimhub_sector: CRP
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 raw_meal_prep_cement:
   description: Mixing raw materials to create the homogenous raw meal mixture which serves as the feedstock for the production of cement clinker.
   name: Raw meal preperation
   aimhub_sector: NMM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 residual_NH3:
   description: Pseudo technology that moves ammonia from level x to level y #TODO: look up levels
   name: Non-fertilizer ammonia production
   aimhub_sector: CRP
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 scrap_recovery_aluminum:
   description: Pseudo technology that represents the collected amount of scrap that goes to recycling
   name: Aluminum scrap collection
   aimhub_sector: NFM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 scrap_recovery_cement:
   description: Pseudo technology that represents the collected amount of cement waste that goes to recycling
   name: Cement waste collection
   aimhub_sector: NMM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 scrap_recovery_steel:
   description: Pseudo technology that represents the collected amount of scrap that goes to recycling
   name: Steel scrap collection
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 secondary_aluminum:
   description: Recycling of aluminum via melting the scrap
   name: Aluminum Recycling
   aimhub_sector: NFM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 sinter_steel:
   description: Recycling of steel via melting the scrap
   name: Steel Recycling
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 soderberg_aluminum:
   description: Aluminum production via Hall–Héroult process with Söderberg electrodes
@@ -1003,7 +1003,7 @@ soderberg_aluminum:
   aimhub_commodity: COM_ELY
 
 solar_aluminum:
-  description: Low temperature heat form solar collector collected with ? for aluminum production
+  description: Low temperature heat form solar collector collected with NA_check for aluminum production
   name: Solar heat for aluminum
   aimhub_sector: NFM
   aimhub_commodity: COM_ELY
@@ -1048,19 +1048,19 @@ total_EOL_aluminum:
   description: Pseudo technology aggregating aluminum scrap after end-of-life
   name: empty
   aimhub_sector: NFM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 total_EOL_cement:
   description: Pseudo technology collecting cement scrap after end-of-life
   name: empty
   aimhub_sector: NMM
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 total_EOL_steel:
   description: Pseudo technology aggregating steel scrap after end-of-life
   name: empty
   aimhub_sector: I_S
-  aimhub_commodity: ?
+  aimhub_commodity: NA_check
 
 trade_NFert:
   description: Pseudo technology representing nitrogen fertilizer trade on global markets
