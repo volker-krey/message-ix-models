@@ -77,6 +77,12 @@ bf_steel:
   aimhub_sector: I_S
   aimhub_commodity: COM_COA
 
+bf_ccs_steel:
+  description: Addon ccs technology for blast furnace producing iron from iron ore
+  name: Blast furnace ccs addon
+  aimhub_sector: I_S
+  aimhub_commodity: COM_ELY
+
 biomass_NH3:
   description: Ammonia synthesis with hydrogen produced from biomass gasification
   name: Ammonia production from biomass
@@ -204,10 +210,10 @@ dri_gas_steel:
   aimhub_commodity: COM_GDT
 
 dri_gas_ccs_steel:
-  description: Sponge iron production through direct reduction of iron ore with natural gas 
-  name: Direct reduction iron process with natural gas
+  description: Addon ccs technology for sponge iron production through direct reduction of iron ore with natural gas 
+  name: Direct reduction iron process with natural gas ccs addon
   aimhub_sector: I_S
-  aimhub_commodity: COM_GDT
+  aimhub_commodity: COM_ELY
 
 dri_h2_steel:
   description: Sponge iron production through direct reduction of iron ore with hydrogen
