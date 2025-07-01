@@ -21,7 +21,7 @@ DUMMY_coal_supply:
   description: Pseudo technology supplying coal for steel sector to be used in emissions reporting
   name: Coal supply for steel sector
   aimhub_sector: I_S
-  aimhub_commodity: COM_COA
+  aimhub_commodity: NA
 
 DUMMY_gas_supply:
   description: Pseudo technology supplying natural gas for steel sector to be used in emissions reporting
